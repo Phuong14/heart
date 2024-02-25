@@ -1,18 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I &#10084; You</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <canvas id="canvas" width="1400" height="600">
-</canvas>
 
-<!-- js here -->
-    <script src="script.js"></script>
-	<h2 class="name"></h2>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="phuongole profile, profile, phuongole, full stack dev, personal profile, profile design, profile website" />
+  <meta name="description" content="Welcome to Phuong14's Profile. Full-Stack Web Developer and Devops Engineer" />
+  <link rel="stylesheet" href="./assets/css/font-awesome5-15-3.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+  <title>Profile | Phuong14</title>
+</head>
+
+<body oncontextmenu="return false">
+  <!-- pre loader -->
+  <!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+  </div> -->
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo"><i class="fab fa-github"></i> Phuong14</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+  <!-- cover section starts -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    </div>
+
+    <div class="content">
+      <h2>Hello World,<br /> I'm <span>Phuong</span></h2>
+      <p>I'm into <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="facebook" aria-label="Facebook" href="https://www.facebook.com/Phuonng.Ole" target="_blank"><i
+                class="fab fa-facebook"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="https://phuong14.github.io/" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href=""><i class="fab fa-instagram" target="_blank"></i></a>
+          </li>
+          <li><a class="googleplus" aria-label="GooglePlus" href=""><i class="fab fa-google-plus"
+                target="_blank"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- cover section ends -->
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>I'm Phuong</h3>
+        <span class="tag">Full Stack Developer</span>
+
+        <p>I am a Full-Stack developer based in Vietnam.
+          I am an Information Security undergraduate from Vietnam Academy of Cryptography Techniques.
+          I am very interested in learning and researching new technologies to improving my coding skills & developing
+          applications
+          Experienced in analyzing, designing, developing systems, administering website.
+          Flexible problem solving, good capability of self-study and working under high pressure
+          Good communication and teamwork skills.
+        </p>
+
+        <div class="box-container">
+          <div class="box">
+            <p><span> email : </span> xxx-xxx-xxx@gmail.com</p>
+            <p><span> place : </span> Bac Ninh, Vietnam</p>
+            <p><span> phone : </span> 1900-15-0-Co</p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="/" target="_blank" class="btn"><span>CV Here</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+      <div class="row" id="skillsContainer">
+      </div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+  <!-- work project section starts -->
+  <section class="work" id="work">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    <div class="box-container">
+    </div>
+
+    <!-- <div class="viewall">
+    <a href="/projects" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+  </div> -->
+  </section>
+  <!-- work project section ends -->
+
+  <!-- experience section starts -->
+  <section class="experience" id="experience">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+    <div class="timeline">
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>FPT Software Employed</h2>
+          </div>
+          <div class="desc">
+            <h3>Junior Developer</h3>
+            <p>2017 - 2019</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>FPT Software Employed</h2>
+          </div>
+          <div class="desc">
+            <h3>Full Stack Developer</h3>
+            <p>2019 - 2022</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Samsung SDS Vietnam Employed</h2>
+          </div>
+          <div class="desc">
+            <h3>Full Stack Developer</h3>
+            <p>2022 - present</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Status</h2>
+          </div>
+          <div class="desc">
+            <h3>Single</h3>
+            <p>newborn - present</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+  </div> -->
+    </div>
+
+  </section>
+  <!-- experience section ends -->
+
+  <!-- contact section starts -->
+  <!-- <section class="contact" id="contact">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Contact <span>Me</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assets/images/contact1.png" alt="">
+        </div>
+        <form id="contact-form">
+
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Message" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section> -->
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Phuong14 Profile</h3>
+        <p>Thank you for visiting my personal profile website. Connect with me over socials. <br /> <br /> Keep Rising
+          🍻. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i>1900-15-0-Co</p>
+        <p> <i class="fas fa-envelope"></i>xxx-xxx-xxx@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Bac Ninh, Vietnam</p>
+        <div class="share">
+          <a class="facebook" aria-label="Facebook" href="https://www.facebook.com/Phuonng.Ole" target="_blank"><i
+              class="fab fa-facebook"></i></a>
+          <a class="github" aria-label="GitHub" href="https://phuong14.github.io/" target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a class="instagram" aria-label="Instagram" href=""><i class="fab fa-instagram" target="_blank"></i></a>
+          <a class="googleplus" aria-label="GooglePlus" href=""><i class="fab fa-google-plus" target="_blank"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="credit">🍻🍻🍻</h1>
+
+  </section>
+  <!-- footer section ends -->
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- jquery -->
+  <script src="./assets/js/jquery.min.js"></script>
+  <!-- typed.js -->
+  <script src="./assets/js/typed.min.js"></script>
+  <!-- particle.js -->
+  <script src="./assets/js/particles.min.js"></script>
+  <!-- vanilla tilt.js -->
+  <script src="./assets/js/vanilla-tilt.min.js"></script>
+  <!-- scroll reveal anim -->
+  <script src="./assets/js/scrollreveal.js"></script>
+  <script src="./assets/js/email.min.js"></script>
+
+  <!-- custom js -->
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>

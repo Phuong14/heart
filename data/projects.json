@@ -1,0 +1,22 @@
+[
+  {
+    "name": "FPT Software",
+    "desc": "Full-Stack develops web application for the internal FSOFT",
+    "image": "fpt-software",
+    "category": "fpt-software",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Samsung SDS",
+    "desc": "Full-Stack develops web application security system for Samsung Display Vietnam factory",
+    "image": "samsung-sds",
+    "category": "samsung-sds",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]

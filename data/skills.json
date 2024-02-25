@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    },
+    {
+        "name": "Spring",
+        "icon": "https://img.icons8.com/color/48/spring-logo.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "jQuery",
+        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "Vuejs",
+        "icon": "https://img.icons8.com/fluency/48/vuejs.png"
+    },
+    {
+        "name": "Android",
+        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
+    },
+    {
+        "name": "OracleDB",
+        "icon": "https://img.icons8.com/color/48/oracle-logo.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Gitlab",
+        "icon": "https://img.icons8.com/color/48/gitlab.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/fluency/48/docker.png"
+    },
+    {
+        "name": "K8s",
+        "icon": "https://img.icons8.com/color/48/kubernetes.png"
+    },
+    {
+        "name": "Jenkins",
+        "icon": "https://img.icons8.com/color/48/jenkins.png"
+    },
+    {
+        "name": "JIRA",
+        "icon": "https://img.icons8.com/color/48/jira.png"
+    },
+    {
+        "name": "Confluence",
+        "icon": "https://img.icons8.com/fluency/48/confluence.png"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/color/48/linux--v1.png"
+    },
+    {
+        "name": "",
+        "icon": "https://img.icons8.com/ios-filled/50/FFFFFF/ellipsis.png"
+    }
+]
